@@ -6,6 +6,24 @@
     <title>Auguri Vale</title>
 </head>
 <body>
-    <h1>Auguri Vale</h1>
+    <div class="header">
+        <h1>Auguri Vale 🫶</h1>
+        <p>Spero che la moneta di cicocolato non si sia sciolta ;)</hp>
+    </div>
+
+    <p>Ad ogni modo, è arrivato il momento di scoprire il codice che sbloccherà il regalo segreto a cui tutti in questo Secret Santa ambivano</p>
+
+    <div class="pass">
+        <p>Inserisci il codice segreto:</p>
+        <input type="text" id="codice"/>
+
+        <button id="invia" onclick="mostraCodice()">Invia</button>
+    </div>
+
+    <div id="secretCode" style="display: none;">
+        <span>Il codice segreto è</span>
+        <div class="code">459</div>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
