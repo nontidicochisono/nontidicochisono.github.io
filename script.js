@@ -6,7 +6,7 @@ function mostraCodice() {
         secretCode.style.display = "block";
     }
     else {
-        alert("Dai su, riprova");
+        alert("Per l'amor del pres, riprova!");
         codice.value = "";
         codice.focus();
     }
